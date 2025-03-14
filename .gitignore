@@ -1,0 +1,96 @@
+# Content-Craft-AI
+ 
+# Node.js
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.*.local
+*.local
+
+# Next.js
+.next/
+out/
+*.cache
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+venv/
+*.egg-info/
+*.pyo
+
+# MongoDB and PostgreSQL
+*.sql
+mongod.lock
+pgdata/
+pg_logs/
+*.dump
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+*.dockerfile
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and Temp Files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.pid
+
+# Coverage and Test Reports
+coverage/
+*.lcov
+.nyc_output/
+test-results/
+
+# Build Outputs
+dist/
+build/
+__pycache__/
+.cache/
+*.pyc
+
+# IDEs and Editors
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.log
+*.crt
+*.key
+*.pem
+*.pfx
+*.p12
+*.crt
+
+# Ignore lock files (optional)
+package-lock.json
+yarn.lock
+pipfile.lock
+
+# Local environment files
+.env
+*.env
+.env.*.local
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore Python virtual environments
+venv/
+.env/
