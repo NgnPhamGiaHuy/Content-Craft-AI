@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/aspect-ratio";
+@plugin "./plugin/customComponent.ts";
+
+:root {
+    --background: #ffffff !important;
+    --foreground: #171717;
+}
+
+/* Base REM configuration */
+@layer base {
+    html {
+        font-size: 16px;
+    }
+}
+
+@theme {
+    --color-primary-light: #55DDE0;
+    --color-primary-dark: #33658A;
+    --color-primary-darker: #2F4858;
+    --color-secondary-light: #F6AE2D;
+    --color-secondary-dark: #F26419;
+}
+
+@theme inline {
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+}
+
+/*@media (prefers-color-scheme: dark) {*/
+/*    :root {*/
+/*        --background: #0a0a0a;*/
+/*        --foreground: #ededed;*/
+/*    }*/
+/*}*/
+
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: Nunito, sans-serif;
+}

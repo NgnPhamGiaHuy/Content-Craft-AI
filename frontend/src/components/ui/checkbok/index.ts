@@ -1,0 +1,1 @@
+export { default as CheckBoxLink }from "@/components/ui/checkbok/CheckBoxLink";
